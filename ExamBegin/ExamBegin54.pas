@@ -3,13 +3,18 @@ const
   P = 100;
 var
   m:array[1..P] of integer;
-  max1,max2,max3,i,n:integer;
+  min,max1,max2,max3,i,n:integer;
 begin
   Task('ExamBegin54');
   Readln(n);
-  for i:=1 to n do Read(m[i]);
+  {for i:=1 to n do Read(m[i]);
   //max1:=m[1]; max2:=m[2]; max3:=m[3];
-  max1:=-10000; max2:=-10000; max3:=-10000;
+  max1:=-10000; max2:=-10000; max3:=-10000;}
+  for i:=1 to n do begin
+    Read(m[i]);
+    if min>m[i] then min:=m[i];
+  end;
+  max1:=min; max2:=min; max3:=min;
   for i:=1 to n do begin
     if max1<m[i] then begin
       max3:=max2;
