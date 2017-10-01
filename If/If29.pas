@@ -1,16 +1,16 @@
-uses PT4;
+п»їuses PT4;
 var
   x:integer;
   k:string;
 begin
   Task('If29');
   Read(x);
-  if x=0 then k:='нулевое число'
+  if x=0 then k:='РЅСѓР»РµРІРѕРµ С‡РёСЃР»Рѕ'
   else begin
-    if x>0 then k:='положительное '
-    else k:='отрицательное ';
-    if x mod 2 =0 then k:=k+'четное число'
-    else k:=k+'нечетное число';
+    if x>0 then k:='РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ '
+    else k:='РѕС‚СЂРёС†Р°С‚РµР»СЊРЅРѕРµ ';
+    if x mod 2 =0 then k:=k+'С‡РµС‚РЅРѕРµ С‡РёСЃР»Рѕ'
+    else k:=k+'РЅРµС‡РµС‚РЅРѕРµ С‡РёСЃР»Рѕ';
   end;
   Write(k);
 end.

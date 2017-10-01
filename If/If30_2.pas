@@ -1,4 +1,4 @@
-uses PT4;
+﻿uses PT4;
 var
   x:integer;
 begin
