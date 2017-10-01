@@ -4,6 +4,6 @@ var
 begin
   Task('If7');
   Read(a,b);
-  if a<b then Write(StrToInt('1'))
-  else Write(StrToInt('2'));
+  if a<b then Write(1)
+  else Write(2);
 end.
