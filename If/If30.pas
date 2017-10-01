@@ -1,14 +1,14 @@
-uses PT4;
+п»їuses PT4;
 var
   x:integer;
   k:string;
 begin
   Task('If30');
   Read(x);
-  if x mod 2 =0 then k:='четное '
-  else k:='нечетное ';
-  if x>=100 then k:=k+'трехзначное число'
-  else if x<10 then k:=k+'однозначное число'
-  else k:=k+'двузначное число';
+  if x mod 2 =0 then k:='С‡РµС‚РЅРѕРµ '
+  else k:='РЅРµС‡РµС‚РЅРѕРµ ';
+  if x>=100 then k:=k+'С‚СЂРµС…Р·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ'
+  else if x<10 then k:=k+'РѕРґРЅРѕР·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ'
+  else k:=k+'РґРІСѓР·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ';
   Write(k);
 end.
