@@ -1,0 +1,35 @@
+uses PT4;
+var
+  x,a,r1,r2,s:real;
+  n:integer;
+begin
+  Task('Case14');
+  Read(n);
+  Read(x);
+  case n of
+    1:begin
+        r1:=x*sqrt(3)/6;
+        r2:=2*r1;
+        s:=sqr(x)*sqrt(3)/4;
+        Write(r1,r2,s);
+      end;
+    2:begin
+        a:=x/(sqrt(3)/6);
+        r2:=2*x;
+        s:=sqr(a)*sqrt(3)/4;
+        Write(a,r2,s);
+      end;
+    3:begin
+        r1:=x/2;
+        a:=r1/(sqrt(3)/6);
+        s:=sqr(a)*sqrt(3)/4;
+        Write(a,r1,s);
+      end;
+    4:begin
+        a:=sqrt(x/(sqrt(3)/4));
+        r1:=a*sqrt(3)/6;
+        r2:=2*r1;
+        Write(a,r1,r2);
+      end;
+  end;
+end.

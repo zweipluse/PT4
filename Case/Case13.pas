@@ -1,0 +1,35 @@
+uses PT4;
+var
+  n:integer;
+  x,a,c,h,s:real;
+begin
+  Task('Case13');
+  Read(n);
+  Read(x);
+  case n of
+    1:begin
+        c:=x*sqrt(2);
+        h:=c/2;
+        s:=c*h/2;
+        Write(c,h,s);
+      end;
+    2:begin
+        a:=x/sqrt(2);
+        h:=x/2;
+        s:=x*h/2;
+        Write(a,h,s);
+      end;
+    3:begin
+        c:=x*2;
+        a:=c/sqrt(2);
+        s:=c*x/2;
+        Write(a,c,s);
+      end;
+    4:begin
+        h:=sqrt(x);
+        c:=2*h;
+        a:=c/sqrt(2);
+        Write(a,c,h);
+      end;
+  end;
+end.
