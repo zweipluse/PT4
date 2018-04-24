@@ -5,9 +5,9 @@ var
 
 begin
   Task('Begin11');
-  Read(a,b);
-  Write(abs(a)+abs(b));
-  Write(abs(a)-abs(b));
-  Write(abs(a)*abs(b));
-  Write(abs(a)/abs(b));
+  read(a,b);
+  write(abs(a) + abs(b));
+  write(abs(a) - abs(b));
+  write(abs(a) * abs(b));
+  write(abs(a) / abs(b));
 end.

@@ -5,6 +5,6 @@ var
 
 begin
   Task('Begin8');
-  Read(a,b);
-  Write((a+b)/2);
+  read(a,b);
+  write((a + b) / 2);
 end.

@@ -5,9 +5,9 @@ var
 
 begin
   Task('Begin10');
-  Read(a,b);
-  Write(sqr(a)+sqr(b));
-  Write(sqr(a)-sqr(b));
-  Write(sqr(a)*sqr(b));
-  Write(sqr(a)/sqr(b));
+  read(a,b);
+  write(sqr(a) + sqr(b));
+  write(sqr(a) - sqr(b));
+  write(sqr(a) * sqr(b));
+  write(sqr(a) / sqr(b));
 end.

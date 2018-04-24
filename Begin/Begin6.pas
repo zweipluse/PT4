@@ -5,8 +5,8 @@ var
 
 begin
   Task('Begin6');
-  Read(a,b,c);
-  v:=a*b*c;
-  s:=2*(a*b+b*c+a*c);
-  Write(v,s);
+  read(a,b,c);
+  v := a * b * c;
+  s := 2 * (a * b + b * c + a * c);
+  write(v,s);
 end.

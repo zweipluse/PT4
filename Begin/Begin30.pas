@@ -1,12 +1,13 @@
 uses
   PT4;
 const
-  pi=3.14;
+  pi = 3.14;
+
 var
-  a:real;
+  a: real;
 
 begin
   Task('Begin30');
-  Read(a);
-  Write((360*a)/(2*pi));
+  read(a);
+  write((360 * a) / (2 * pi));
 end.

@@ -1,11 +1,11 @@
 uses
   PT4;
 var
-  a,b,x:real;
+  a, b, x: real;
 
 begin
   Task('Begin38');
-  Read(a,b);
-  x:=-b/a;
-  Write(x);
+  read(a, b);
+  x := -b / a;
+  write(x);
 end.

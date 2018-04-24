@@ -5,8 +5,8 @@ var
 
 begin
   Task('Begin12');
-  Read(a,b);
-  c:=sqrt(sqr(a)+sqr(b));
-  p:=a+b+c;
-  Write(c,p);
+  read(a,b);
+  c := sqrt(sqr(a) + sqr(b));
+  p := a + b + c;
+  write(c,p);
 end.

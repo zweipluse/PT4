@@ -5,6 +5,6 @@ var
 
 begin
   Task('Begin9');
-  Read(a,b);
-  Write(sqrt(a*b));
+  read(a,b);
+  write(sqrt(a * b));
 end.

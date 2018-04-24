@@ -5,8 +5,8 @@ var
 
 begin
   Task('Begin5');
-  Read(a);
-  v:=sqr(a)*a;
-  s:=6*sqr(a);
-  Write(v,s);
+  read(a);
+  v := sqr(a) * a;
+  s := 6 * sqr(a);
+  write(v,s);
 end.

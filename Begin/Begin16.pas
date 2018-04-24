@@ -5,6 +5,6 @@ var
 
 begin
   Task('Begin16');
-  Read(x1,x2);
-  Write(abs(x2-x1));
+  read(x1,x2);
+  write(abs(x2 - x1));
 end.
