@@ -1,9 +1,11 @@
-uses PT4;
+﻿uses PT4;
+
 var
-  a:integer;
+  a: integer;
+
 begin
   Task('If1');
   Read(a);
-  if a>0 then a:=a-8;
+  if a > 0 then a := a - 8;
   Write(a);
 end.
