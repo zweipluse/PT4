@@ -1,7 +1,9 @@
-﻿uses PT4;
+uses PT4;
+
 var
-  x:integer;
-  k:string;
+  x: integer;
+  k: string;
+
 begin
   Task('If30');
   read(x);

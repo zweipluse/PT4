@@ -1,5 +1,6 @@
-uses
+﻿uses
   PT4;
+
 var
   a, a2, a4, a8: real;
 

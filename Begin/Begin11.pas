@@ -1,11 +1,12 @@
-uses
+﻿uses
   PT4;
+
 var
-  a,b:real;
+  a, b: real;
 
 begin
   Task('Begin11');
-  read(a,b);
+  read(a, b);
   write(abs(a) + abs(b));
   write(abs(a) - abs(b));
   write(abs(a) * abs(b));

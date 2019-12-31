@@ -1,9 +1,11 @@
-uses
+﻿uses
   PT4;
+
 const
   pi = 3.14;
+
 var
-  d,l:real;
+  d, l: real;
 
 begin
   Task('Begin4');

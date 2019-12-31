@@ -1,6 +1,8 @@
-﻿uses PT4;
+uses PT4;
+
 var
-  x:integer;
+  x: integer;
+
 begin
   Task('If29');
   read(x);
@@ -10,6 +12,6 @@ begin
       if x mod 2 = 0 then write('положительное четное число')
       else write('положительное нечетное число')
     else if x mod 2 = 0 then write('отрицательное четное число')
-      else write('отрицательное нечетное число');
+    else write('отрицательное нечетное число');
   end;
 end.

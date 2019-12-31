@@ -1,18 +1,20 @@
 uses PT4;
+
 var
-  a,b,c:real;
+  a, b, c: real;
+
 begin
   Task('If16');
-  Read(a,b,c);
-  if (a<b) and (b<c) then 
+  Read(a, b, c);
+  if (a < b) and (b < c) then 
   begin
-    a:=2*a;
-    b:=2*b;
-    c:=2*c;
+    a := 2 * a;
+    b := 2 * b;
+    c := 2 * c;
   end else begin
-    a:=-1*a;
-    b:=-1*b;
-    c:=-1*c;
+    a := -1 * a;
+    b := -1 * b;
+    c := -1 * c;
   end;
-  Write(a,b,c);
+  Write(a, b, c);
 end.

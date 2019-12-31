@@ -1,11 +1,13 @@
-uses PT4Exam;
+﻿uses PT4Exam;
+
 var
-  a,x:integer;
+  a, x: integer;
+
 begin
   Task('ExamBegin11');
   Read(a);
-  x:=2;
+  x := 2;
   while a mod x <> 0 do
-    x:=x+1;
+    x := x + 1;
   Write(x);
 end.

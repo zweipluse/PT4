@@ -1,4 +1,4 @@
-uses PT4Exam;
+﻿uses PT4Exam;
 const
   R = 100;
   S = 100;
@@ -7,8 +7,7 @@ var
   m,n,i,j:integer;
 begin
   Task('ExamBegin24');
-  Read(m);
-  Read(n);
+  Read(m, n);
   for i:=1 to m do begin
     for j:=1 to n do begin
       a[i,j]:=i*10;
