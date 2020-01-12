@@ -1,11 +1,12 @@
 ﻿uses PT4Exam;
+
 const
   P = 100;
-  
+
 var
-  n,m,k,x,i,j:integer;
-  arr:array[1..P] of integer;
-  
+  n, m, k, x, i, j: integer;
+  arr: array[1..P] of integer;
+
 begin
   Task('ExamBegin76');
   read(n);

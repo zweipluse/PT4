@@ -6,20 +6,23 @@ const
 var
   arr: array[1..P, 1..P] of real;
   m, n, i, j: integer;
-  sum: real;
+  min, k: real;
 
 begin
-  Task('ExamBegin63');
-  Readln(m, n);
+  Task('ExamBegin65');
+  read(m, n);
   for i := 1 to m do
     for j := 1 to n do
-      Read(arr[i, j]);
-  sum := 0;
+      read(arr[i, j]);
+  k := 1;
   for i := 1 to n do
   begin
+    min := maxint;
     for j := 1 to m do
-      sum := sum + arr[j, i];
-    Write(sum / m:6:2);
-    sum := 0;
+    begin
+      if arr[j, i] < min then min := arr[j, i];
+    end;
+    k := k * min;
   end;
+  write(k:1:2);
 end.

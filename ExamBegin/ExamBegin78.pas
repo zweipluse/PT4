@@ -1,10 +1,12 @@
 ﻿uses PT4Exam;
+
 const
   P = 100;
+
 var
-  k,n,i:integer;
-  arr:array[1..P] of real;
-  
+  k, n, i: integer;
+  arr: array[1..P] of real;
+
 begin
   Task('ExamBegin78');
   read(k, n);
